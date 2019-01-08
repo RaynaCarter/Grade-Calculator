@@ -1,44 +1,102 @@
-.currentGrade{
-    text-align: center;
-
-    margin:auto;
-    font-size: 24px;
-}
-
-#calculate{
-    font-size: 22px;
-    background-color: wheat;
-    padding: 10px 24px;
-    border-radius: 10px;
-}
-
-#finalCalc{
-    font-size: 22px;
-    margin-bottom: 44px;
-    background-color: wheat;
-    padding: 10px 24px;
-    border-radius: 10px;
-}
-
-
 
 button:focus {outline:0 !important;}
 
 body{
-    background-color: #d1ffbb;
+    background-color: darkslategray;
+}
+
+input{
+    margin: 10px;
 }
 
 #title{
-    font-size: 56px;
+    margin:auto;
+    width: 50%;
+    border: 5px solid black;
+    text-align: center;
+    color:white;
+    font-size: 32px;
+
 }
 
 #weightedGrade{
     text-align: center;
+    color:white;
     margin:auto;
-    font-size: 32px;
+    font-size: 50px;
 }
 
 #finalHeader{
     text-align: center;
     margin:auto;
 }
+
+#table{
+    margin:auto;
+    width: 40%;
+    border: 5px solid black;
+    text-align: center;
+}
+#currGrade{
+    margin:auto;
+    width: 50%;
+    color:white;
+    text-align: center;
+}
+#curgradeword{
+    margin:auto;
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+    color:white;
+}
+#button{
+    margin: 5%;
+    width: 25%;
+    border: 5px solid black;
+    align-content: center;
+}
+#table2{
+    margin:auto;
+    width: 50%;
+    border: 5px solid black;
+    text-align;
+}
+#gradeNeed{
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    color:white;
+}
+#gradeNeedWord{
+    margin:auto;
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+    color:white;
+}
+#button2{
+    margin: 5%;
+    width: 25%;
+    border: 5px solid black;
+    align-content: center;
+    color:black;
+}
+
+.majortext{
+    color:black;
+}
+#inside{
+    color:black;
+}
+#desgrade{
+    color:black;
+}
+#finweight {
+    color: black;
+}
+.buttcenter{
+   text-align: center;
+    align-content: center;
+}
+

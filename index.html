@@ -10,26 +10,82 @@
     <link rel="stylesheet" href="style.css">
     <script src = "script.js"></script>
 </head>
-<body onload="onLoad()">
-<p>
+<body>
 
-<p>
-<div class="currentGrade" id="title">TITLE</div>
+<div id="title">Grade Calculator</div>
 </p>
+<div id="container">
+    <table id="table">
+        <div class="calCurrentGrade">
 
+            <tr>
+                <div>
+                <th class="majortext">Homework Points
+                    <input type="text" id="homework" value="80,70,90,100" size="40">
+                </th>
+                    <p>    </p>
+                <th class="majortext">Homework Weight
+                    <input type="text" id="homeworkWeight" value="30" size="45" >
+                </th>
+            </tr>
+        </div>
+            <tr>
+                <th class="majortext">Classwork Points
+                    <input type="text" id="classwork" value="100,20,90" size="40">
+                </th>
+                <th class="majortext">Classwork Weight
+                    <input type="text" id="classworkWeight" value="30" size="45">
+                </th>
+            </tr>
 
-<!--put into a table-->
+            <tr>
+                <th class="majortext">Assessment Points
+                    <input type="text" id="assessment" value="90,80,79" size="40">
+                </th>
+                <th class="majortext">Assessment Weight
+                    <input type="text" id="assessmentWeight" value="30" size="45">
+                </th>
+            </tr>
 
-<div class="calCurrentGrade">
-    <div class="calCurrentGrade"><p>Homework Points &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homework Weight</p>
-        <input type="text" id="homework" value="10,20,30" size="45">
-        <input type="text" id="homeworkWeight" value="30" size="45">
-    </div>
+            <tr>
+                <th class="majortext">Participation Points
+                    <input type="text" id="participation" value="90,80,86" size="40">
+                </th>
+                <th class="majortext">Participation Weight
+                    <input type="text" id="participationWeight" value="30" size="45">
+                </th>
+            </tr>
+        </div>
+    </table>
+</div>
+<p> </p>
+<div id="curgradeword" >Current Grade</div>
+    <div id="currGrade" > </div>
+<div class="buttcenter">
     <button id="button" onclick="calcGrade()"> Calculate Grade </button>
+</div>
 
 
+<table id="table2">
 
+    <th class="majortext">
+        Grade Desired
+        <input type="text" id="desgrade" value="90" size="45" >
+    </th>
 
+    <th class="majortext">Weight of Final
+        <input type="text" id="finweight" value="30" size="45" >
+    </th>
+
+</table>
+<p> </p>
+<div id="gradeNeedWord">Grade Needed On Final</div>
+<p> </p>
+<div id="gradeNeed"> </div>
+<div class="buttcenter">
+    <button id="button2" onclick="calcFinal()">Calculate Nessesary Grade</button>
+</div>
 
 </body>
 </html>
+
